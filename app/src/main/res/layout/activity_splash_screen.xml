@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sayyidpratama.sayyidpratamashiddiq_1202150066_modul2.SplashScreen"
+    android:id="@+id/splash_screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/startwars"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SAYYID"
+        android:textAlignment="center"
+        android:textColor="@color/color_putih"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>
